@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --card-1-color: #00588a;
+  --card-2-color: #742d06;
+  --card-3-color: #664d36;
+  --card-4-color: #4a6640;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+button {
+  border-radius: 41px;
+  width: 123px;
+  height: 31px;
+  border: none;
+}
+
+nav {
+  height: 52px;
+  padding: 3% 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.5rem;
+  font-size: 23px;
+  color: #310e0e;
+}
+
+.left-section,
+.right-section {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle-section {
+  flex: 0 0 500px; /* Change 300px to the desired width */
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+}
+
+ul li {
+  list-style: none;
+}
+
+.right-section button {
+  width: 125px;
+  height: 52px;
+  font-size: inherit;
+  border: 2px solid #828282;
+  background: transparent;
+}
+
+.container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+header {
+  width: 800px;
+  font-size: 1.5rem;
+  line-height: 1.8;
+  color: #00203f;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+}
+
+.main .card {
+  width: 346px;
+  height: 380px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  text-align: center;
+}
+
+.card img {
+  width: 193px;
+  height: 177px;
+}
+
+.card-1 {
+  background-color: #00e0ff3d;
+  color: var(--card-1-color);
+}
+.card-2 {
+  background-color: #ffc7005e;
+  color: var(--card-2-color);
+}
+.card-3 {
+  background-color: #ff7a0078;
+  color: var(--card-3-color);
+}
+.card-4 {
+  background-color: #42ff005e;
+  color: var(--card-4-color);
+}
+
+.card button {
+  color: white;
+  width: 123px;
+  height: 31px;
+  font-family: inherit;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+.card-1 button {
+  background-color: var(--card-1-color);
+}
+
+.card-2 button {
+  background-color: var(--card-2-color);
+}
+
+.card-3 button {
+  background-color: var(--card-3-color);
+}
+
+.card-4 button {
+  background-color: var(--card-4-color);
+}
